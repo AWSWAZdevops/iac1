@@ -38,7 +38,7 @@ variable "sg-name" {
 variable "iam-role" {
   description = "IAM Role for the Jumphost Server"
   type = string
-  default = "Jumphost-iam-role"
+  default = "jumphost-iam-role"
 }
 
 variable "ami_id" {
@@ -62,6 +62,6 @@ variable "key_name" {
 variable "instance_name" {
   description = "EC2 Instance name for the jumphost server"
   type        = string
-  default     = "Jumphost-server"
+  default     = "Jumphost-server2"
 }
 #
