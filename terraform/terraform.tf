@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "cloudcore007"
+    bucket = "testingbucket187"
     key    = "terraform.tfstate"
     region = "us-east-1"
   }
